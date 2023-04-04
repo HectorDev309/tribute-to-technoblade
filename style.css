@@ -1,0 +1,136 @@
+/* Decorando a frase "Technoblade never dies" */
+.slogan{
+    color: rgb(255, 187, 16);
+    transition: .5s;
+}
+/* Fazer brilhar toda vez que o mouse é colocado em cima da frase "Technoblade never dies" */
+.slogan:hover{
+    filter: drop-shadow(0 0 8px rgb(255, 206, 83));
+}
+
+
+
+
+/* Definindo fundo da pagina */
+html{
+    background-color: rgb(50,50,50);
+    margin-inline: 100px;
+    margin-bottom: 100px;
+}
+
+/* Cor dos links */
+a{
+    color: rgb(255, 187, 16);
+    text-decoration: none;
+}
+
+
+
+
+/* Definindo Banner no topo e em baixo da pagina */
+.banner{
+    width: 100%;
+    box-shadow: 0px 10px 20px black;
+    filter: brightness(50%);
+    transition: .5s;
+}
+/* Fazer brilhar toda vez que o mouse é colocado em cima do banner */
+.banner:hover{
+    filter: brightness(100%);
+}
+
+
+
+
+/* Definindo body da pagina */
+body{
+    color: white;
+    background-color: rgb(20,20,20);
+    position: relative;
+    box-shadow: 0px 0px 20px black;
+}
+
+
+
+
+/* Definindo cada article (introdução e história) */
+article{
+    margin: 50px;
+}
+
+
+
+
+/* Definindo h1 e p */
+h1{
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 25px;
+    margin: 20px 10px 20px 10px;
+}
+
+
+
+
+/* Região da imagem de Technoblade junto com seus feitos (deeds) */
+#img-deeds{
+    display: inline-block;
+    position: relative
+}
+/* Imagem de Techno */
+#img-art{
+    width: 30%;
+    float: left;
+}
+/* Lista de feitos */
+#deeds{
+    width: 65%;
+    right: 0;
+    float: right;
+    list-style: none;
+}
+/* Divisão dos feitos */
+#subdeeds{
+    list-style: disc;
+}
+/* Título dos feitos */
+h2{
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+/* Itens da lista */
+li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 20px 20px;
+}
+/* Título e itens */
+h2, li{
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+
+
+/* Definindo vídeos no iframe */
+.video{
+    display: inline;
+    
+    margin-inline: 10px;
+}
+/* Vídeo da esquerda */
+#left{
+    float: left;
+}
+/* Vídeo da direita */
+#right{
+    float: right;
+}
